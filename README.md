@@ -6,11 +6,14 @@ Poc project to get temperature and Humidiity data from Raspberry pi and move dat
 Code here in this project is just for reference purpose and can be used by adding some of the information in code.
 
 where in code mentioned below replace with actual value
+```
 <<region>>
 <<accountno>>
 <<principalId>>
 <<dynamodbtablename>>
 <<bucketname>>
 <<staticbucketname>>
+
+```
 
 
