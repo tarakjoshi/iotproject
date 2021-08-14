@@ -97,7 +97,7 @@ async function getTemperatureData(data) {
 
 async function getTemperatureHumidityData() {
 
-  const response = await fetch('http://<<yourbucketname>>.s3-website-us-east-1.amazonaws.com/data.json');
+  const response = await fetch('http://<<staticbucketname>>.s3-website-us-east-1.amazonaws.com/data.json');
   const json = await response.json();
   if (json != undefined) {
     return json;
