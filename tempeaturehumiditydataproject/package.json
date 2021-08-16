@@ -1,0 +1,7 @@
+{
+    "dependencies": {
+        "express": "*",
+        "aws-sdk": "^2.948.0",
+        "request": "^2.88.2"
+    }
+}
